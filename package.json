@@ -1,0 +1,35 @@
+{
+  "name": "@cncsc/terraform-azuread-group",
+  "version": "0.0.0-development",
+  "description": "Terraform modules for configuring Azure Active Directory groups.",
+  "main": "main.tf",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cncsc/terraform-azuread-group.git"
+  },
+  "author": {
+    "name": "Cloud-Native Cybersecurity Collective",
+    "email": "info@cncsc.io",
+    "url": "https://www.cncsc.io/"
+  },
+  "contributors": [
+    {
+      "name": "Armor Defense Inc.",
+      "email": "info@armor.com",
+      "url": "https://www.armor.com/"
+    }
+  ],
+  "scripts": {
+    "lint": "echo 'There are no default linters configured for this project.'"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@cncsc/cncsc-changelog-convention": "^1.0.0",
+    "@cncsc/eslint-config": "^0.1.0",
+    "@cncsc/semantic-release-config": "^1.0.2",
+    "@semantic-release/exec": "^6.0.3",
+    "eslint": "^8.26.0",
+    "marked": "^4.0.12",
+    "semantic-release": "~19.0.2"
+  }
+}
