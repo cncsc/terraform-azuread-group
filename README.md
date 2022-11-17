@@ -1,4 +1,6 @@
-<img src="https://raw.githubusercontent.com/cncsc/.meta/main/img/cncsc-logo-mid.svg" alt="Cloud-Native Cybersecurity Collective Logo" align="right">
+<a href="https://cncsc.io">
+  <img src="https://raw.githubusercontent.com/cncsc/.meta/main/img/cncsc-logo-mid.svg" alt="Cloud-Native Cybersecurity Collective Logo" align="right">
+</a>
 
 # terraform-azuread-group
 
@@ -9,14 +11,10 @@
 
 Terraform modules for deploying and managing Azure Active Directory groups.
 
-<a href="https://www.armor.com/?utm_source=github&utm_medium=organic_oss&utm_campaign=ci-analysis-collector">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cncsc/.meta/main/img/contributor-armor-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cncsc/.meta/main/img/contributor-armor-light.svg">
-    <img alt="Contributed and maintained by Armor" src="https://raw.githubusercontent.com/cncsc/.meta/main/img/contributor-armor-dark.svg">
-  </picture>
-</a>
+[![Contributed and maintained by Armor][maintainer_badge_image]][maintainer_badge_link]
 
+[maintainer_badge_image]:https://raw.githubusercontent.com/cncsc/.meta/main/img/contributor-armor-mid.svg
+[maintainer_badge_link]:https://www.armor.com/?utm_source=github&utm_medium=organic_oss&utm_campaign=ci-analysis-collector
 [ci_badge_image]:https://img.shields.io/github/workflow/status/cncsc/terraform-azuread-group/Continuous%20Integration?label=ci&logo=github
 [ci_badge_link]:https://github.com/cncsc/terraform-azuread-group/actions/workflows/ci.yaml
 [cd_badge_image]:https://img.shields.io/github/workflow/status/cncsc/terraform-azuread-group/Continuous%20Deployment?label=cd&logo=github
