@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cncsc/.meta/main/img/cncsc-logo-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cncsc/.meta/main/img/cncsc-logo-light.svg">
-    <img alt="Cloud-Native Cybersecurity Collective Logo" src="https://raw.githubusercontent.com/cncsc/.meta/main/img/cncsc-logo.svg">
+    <img alt="Cloud-Native Cybersecurity Collective Logo" src="https://raw.githubusercontent.com/cncsc/.meta/main/img/cncsc-logo-mid.svg">
   </picture>
 
   # terraform-azuread-group
