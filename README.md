@@ -15,8 +15,8 @@
   This repository contains modules for deploying and managing Azure Active Directory groups.
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cncsc/.meta/main/img/contributor-armor-dark.svg 1.25x">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cncsc/.meta/main/img/contributor-armor-light.svg 1.25x">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cncsc/.meta/main/img/contributor-armor-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cncsc/.meta/main/img/contributor-armor-light.svg">
     <img alt="Contributed and maintained by Armor" src="https://raw.githubusercontent.com/cncsc/.meta/main/img/contributor-armor-dark.svg">
   </picture>
 </div>
