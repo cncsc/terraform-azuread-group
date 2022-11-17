@@ -14,11 +14,13 @@
 
   This repository contains modules for deploying and managing Azure Active Directory groups.
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cncsc/.meta/main/img/contributor-armor-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cncsc/.meta/main/img/contributor-armor-light.svg">
-    <img alt="Contributed and maintained by Armor" src="https://raw.githubusercontent.com/cncsc/.meta/main/img/contributor-armor-dark.svg">
-  </picture>
+  <a href="https://www.armor.com/?utm_source=github&utm_medium=organic_oss&utm_campaign=ci-analysis-collector">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cncsc/.meta/main/img/contributor-armor-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cncsc/.meta/main/img/contributor-armor-light.svg">
+      <img alt="Contributed and maintained by Armor" src="https://raw.githubusercontent.com/cncsc/.meta/main/img/contributor-armor-dark.svg">
+    </picture>
+  </a>
 </div>
 
 [ci_badge_image]:https://img.shields.io/github/workflow/status/cncsc/terraform-azuread-group/Continuous%20Integration?label=ci&logo=github
