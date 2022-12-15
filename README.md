@@ -8,13 +8,10 @@
 [![Continuous Deployment Status][cd_badge_image]][cd_badge_link]
 [![Release][release_badge_image]][release_badge_link]
 [![License][license_badge_image]][license_badge_link]
+[![Maintained by Armor][maintainer_badge_image]][maintainer_badge_link]
 
 Terraform modules for deploying and managing Azure Active Directory groups.
 
-[![Contributed and maintained by Armor][maintainer_badge_image]][maintainer_badge_link]
-
-[maintainer_badge_image]:https://raw.githubusercontent.com/cncsc/.meta/main/img/contributor-armor-mid.svg
-[maintainer_badge_link]:https://www.armor.com/?utm_source=github&utm_medium=organic_oss&utm_campaign=ci-analysis-collector
 [ci_badge_image]:https://img.shields.io/github/actions/workflow/status/cncsc/terraform-azuread-group/ci.yaml?branch=main&label=ci&logo=github
 [ci_badge_link]:https://github.com/cncsc/terraform-azuread-group/actions/workflows/ci.yaml
 [cd_badge_image]:https://img.shields.io/github/actions/workflow/status/cncsc/terraform-azuread-group/cd.yaml?branch=main&label=cd&logo=github
@@ -23,3 +20,5 @@ Terraform modules for deploying and managing Azure Active Directory groups.
 [release_badge_link]:https://registry.terraform.io/modules/cncsc/group/azuread/latest
 [license_badge_image]:https://img.shields.io/github/license/cncsc/terraform-azuread-group
 [license_badge_link]:./LICENSE
+[maintainer_badge_image]:https://img.shields.io/badge/maintainer-Armor-f60
+[maintainer_badge_link]:https://www.armor.com/?utm_source=github&utm_medium=organic_oss&utm_campaign=ci-analysis-collector
