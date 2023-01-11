@@ -21,6 +21,7 @@ resource "azuread_group" "group" {
   display_name = var.display_name
   description  = var.description
   visibility   = var.visibility
+  types        = var.types
 
   members = var.members
   owners  = var.owners
