@@ -18,7 +18,7 @@ variable "description" {
 
 variable "assignable_to_role" {
   description = "Indicates whether this group can be assigned to an Azure Active Directory role. Can only be true for security-enabled groups. Changing this forces a new resource to be created."
-  type        = string
+  type        = bool
   default     = true
 }
 
