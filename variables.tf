@@ -25,7 +25,7 @@ variable "assignable_to_role" {
 variable "auto_subscribe_new_members" {
   description = "Indicates whether new members added to the group will be auto-subscribed to receive email notifications. Can only be set for Unified groups."
   type        = string
-  default     = false
+  default     = null
 }
 
 variable "behaviors" {
@@ -46,19 +46,19 @@ variable "dynamic_membership" {
 variable "external_senders_allowed" {
   description = "Indicates whether people external to the organization can send messages to the group. Can only be set for Unified groups."
   type        = bool
-  default     = false
+  default     = null
 }
 
 variable "hide_from_address_lists" {
   description = "Indicates whether the group is displayed in certain parts of the Outlook user interface: in the Address Book, in address lists for selecting message recipients, and in the Browse Groups dialog for searching groups. Can only be set for Unified groups."
   type        = bool
-  default     = false
+  default     = null
 }
 
 variable "hide_from_outlook_clients" {
   description = "Indicates whether the group is displayed in Outlook clients, such as Outlook for Windows and Outlook on the web. Can only be set for Unified groups."
   type        = bool
-  default     = false
+  default     = null
 }
 
 variable "mail_enabled" {
