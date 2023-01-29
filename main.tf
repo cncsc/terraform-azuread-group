@@ -18,6 +18,16 @@ terraform {
 # ---------------------------------------------------------------------------------------------------------------------
 
 resource "azuread_group" "group" {
+
+  lifecycle {
+    ignore_changes = [
+      // The following fields only have an effect on initial provisioning of the group.
+      // When importing existing resources, these would trigger a replacement of the imported resource.
+      "behaviors",
+      "provisioning_options",
+    ]
+  }
+
   display_name = var.display_name
   description  = var.description
   visibility   = var.visibility
