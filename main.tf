@@ -23,8 +23,8 @@ resource "azuread_group" "group" {
     ignore_changes = [
       // The following fields only have an effect on initial provisioning of the group.
       // When importing existing resources, these would trigger a replacement of the imported resource.
-      "behaviors",
-      "provisioning_options",
+      behaviors,
+      provisioning_options,
     ]
   }
 
